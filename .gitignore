@@ -3,3 +3,4 @@ node_modules
 # Development Files
 indextest.js
 indexdev.js
+config/config.json

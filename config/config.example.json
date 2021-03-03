@@ -1,5 +1,8 @@
 {
 	    "prefix": "!",
 	    "token": "",
-        "license": ""
+		"license": "",
+		"levelsystem": "",
+		"_comment": "Use true or false in levelsystem",
+		"botname": ""
 }

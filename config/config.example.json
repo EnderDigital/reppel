@@ -4,5 +4,6 @@
 		"license": "",
 		"levelsystem": "",
 		"_comment": "Use true or false in levelsystem",
-		"botname": ""
+		"botname": "",
+		"economy": ""
 }

@@ -1,9 +1,8 @@
 {
 	    "prefix": "!",
 	    "token": "",
-		"license": "",
 		"levelsystem": "",
-		"_comment": "Use true or false in levelsystem",
+		"_comment": "Use true or false in levelsystem and economy",
 		"botname": "",
 		"economy": ""
 }

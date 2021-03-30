@@ -1,0 +1,16 @@
+{
+	    "prefix": "!",
+	    "token": "",
+		"botname": "",
+		"development": "",
+		"dashboard": "",
+		"dashport": "",
+		"music": "",
+		"_comment": "EVERYTHING BELOW THIS LINE ARE FOR OFFICIAL ADDONS",
+		"gitlab": {
+			"enabled": "false",
+			"projectid": "",
+			"url": "https://gitlab.com",
+			"token": ""
+		}
+}

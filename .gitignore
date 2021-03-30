@@ -1,0 +1,11 @@
+# Modules
+node_modules
+addonstorage
+dash
+# Development Files
+indextest.js
+indexdev.js
+config.json
+exceptionhandlertestcmd.js
+indexbackup.js
+database.sqlite

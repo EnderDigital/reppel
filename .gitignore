@@ -1,11 +1,5 @@
 # Modules
-node_modules
-addonstorage
-dash
+node_modules/
+addonstorage/
 # Development Files
-indextest.js
-indexdev.js
 config.json
-exceptionhandlertestcmd.js
-indexbackup.js
-database.sqlite

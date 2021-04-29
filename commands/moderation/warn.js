@@ -7,6 +7,6 @@ module.exports = {
         var member= message.mentions.members.first();
         // Kick
             // Successmessage
-            message.channel.send(member.displayName + " - You have been warned2!");
+            message.channel.send(member.displayName + " - You have been warned!");
 	},
 };

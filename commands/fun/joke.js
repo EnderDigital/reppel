@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const Discord = require('discord.js');
 
 module.exports = {
-	name: 'joke',
+	name: 'darkjoke',
 	description: 'Sends a very racist dark joke!',
 	execute(message, args) {
          async function run(){

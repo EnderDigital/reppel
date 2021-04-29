@@ -4,7 +4,7 @@ const clearRequire = require('clear-require');
 const member = new Discord.Client();
 const ytdl = require("ytdl-core");
 const config = require('./config/config.json');
-const { prefix, token, development, dashboard, music } = require('./config/config.json');
+const { prefix, token, development } = require('./config/config.json');
 const { version } = require('./package.json');
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 const fetch = require('node-fetch');

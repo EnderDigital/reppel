@@ -4,6 +4,10 @@
 		"botname": "",
 		"development": "",
 		"_comment": "EVERYTHING BELOW THIS LINE IS FOR OFFICIAL ADDONS",
+		"minestore": {
+			"enabled": "",
+			"storeurl": ""
+		},
 		"gitlab": {
 			"enabled": "false",
 			"projectid": "",

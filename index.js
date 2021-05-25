@@ -23,6 +23,7 @@ const currency = new Discord.Collection();
 var path = require('path');
 const Sentry = require("@sentry/node");
 const Tracing = require("@sentry/tracing");
+const getSymbolFromCurrency = require('currency-symbol-map')
 
 
 // This code until the next comment is error tracing and command loading code, This is a string containing some of our classified data so we had to obfuscate it, It will not effect anything.

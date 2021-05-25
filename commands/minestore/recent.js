@@ -1,6 +1,7 @@
 const { prefix, minestore } = require('../../config/config.json');
 const Discord = require('discord.js');
 const fetch = require('node-fetch');
+const getSymbolFromCurrency = require('currency-symbol-map')
 module.exports = {
 	name: 'recent',
 	description: 'Gets the most recent payment from the store.',
@@ -13,6 +14,8 @@ module.exports = {
                 return json;
             }
             var json = await getrecent()
+            var currency = await fetch("https://pro.minestorecms.com/api/getMainCurrency").then(response => response.text())
+            var currency = await getSymbolFromCurrency(currency)
             var amount = json.amount;
             var date = json.date;
             var package = json.package;
@@ -25,7 +28,7 @@ module.exports = {
             const embed2 = new Discord.MessageEmbed()
                 .setColor('#ff00ff')
                 .setTitle("Most recent payment:")
-                .addField('Amount:', amount, false)
+                .addField('Amount:', currency+amount, false)
                 .addField('Package:', package, false)
                 .addField('Discount:', discountused, false)
                 .setFooter('Payment Date: '+date);

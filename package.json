@@ -18,6 +18,7 @@
     "catch-exit": "^1.1.0",
     "clear-require": "^3.0.0",
     "colors": "^1.4.0",
+    "currency-symbol-map": "^5.0.1",
     "death": "^1.1.0",
     "discord-giveaways": "^4.4.3",
     "discord-oauth2": "^2.6.0",

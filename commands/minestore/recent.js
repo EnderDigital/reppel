@@ -14,7 +14,7 @@ module.exports = {
                 return json;
             }
             var json = await getrecent()
-            var currency = await fetch("https://pro.minestorecms.com/api/getMainCurrency").then(response => response.text())
+            var currency = await fetch(`${minestore.storeurl}/api/getMainCurrency`).then(response => response.text())
             var currency = await getSymbolFromCurrency(currency)
             var amount = json.amount;
             var date = json.date;

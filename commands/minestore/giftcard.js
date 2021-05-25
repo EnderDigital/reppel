@@ -15,7 +15,7 @@ module.exports = {
                 var json = await fetch(`${minestore.storeurl}/api/validGiftCard?code=${code}`).then(response => response.json())
                 return json;
             }
-            var currency = await fetch("https://pro.minestorecms.com/api/getMainCurrency").then(response => response.text())
+            var currency = await fetch(`${minestore.storeurl}/api/getMainCurrency`).then(response => response.text())
             var currency = await getSymbolFromCurrency(currency)
             var json = await getrecent()
             var amount = json.amount;

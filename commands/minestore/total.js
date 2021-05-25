@@ -22,7 +22,7 @@ module.exports = {
             var amount = json.amount
             var username = json.user
             var date = json.date
-            var package = json.date
+            var package = json.package
             const embed2 = new Discord.MessageEmbed()
                 .setColor('#ff00ff')
                 .setTitle("Payment:")
